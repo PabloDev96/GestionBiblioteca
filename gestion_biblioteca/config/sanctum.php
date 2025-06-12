@@ -81,4 +81,10 @@ return [
         'validate_csrf_token' => Illuminate\Foundation\Http\Middleware\ValidateCsrfToken::class,
     ],
 
+    'paths' => [
+        'api/*',
+        'login',
+        'logout',
+    ]
+
 ];
