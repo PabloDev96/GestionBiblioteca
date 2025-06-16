@@ -6,8 +6,11 @@ module.exports = {
     './resources/**/*.vue'
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        verdeBase: 'rgb(0,107,86)', // 🎯 aquí defines el color personalizado
+      },
+    },
   },
   plugins: [],
 }
-
